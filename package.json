@@ -1,0 +1,29 @@
+{
+  "name": "pucktales",
+  "version": "1.0.0",
+  "description": "PuckTales a web-based platform that showcases the history and culture of hockey fans around the world. The website will allow users to explore the evolution of hockey through two primary sections: an interactive world map and a timeline shaped like a hockey stick. Each section will provide detailed information about key events, leagues, and fan traditions. The goal is to create an engaging, visually dynamic experience for users to discover the richness of hockey's history and fan culture.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon src/app.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "leaflet": "^1.9.4",
+    "mongoose": "^8.6.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.4",
+    "npm": "^10.8.3"
+  }
+}
